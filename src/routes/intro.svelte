@@ -27,7 +27,7 @@
 
 .wrapper {
   animation: scroll 500s linear infinite;
-  background: url("sand.avif");
+  background: url("/sand.avif");
 }
 
 @keyframes scroll {
