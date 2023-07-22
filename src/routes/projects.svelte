@@ -30,6 +30,27 @@
             </a>
         </div>
     </div>
+    <div class="row justify-content-center align-items-center">
+        <div class="card my-2 p-3">
+            <a href="https://github.com/oborekk/svelte-cv">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <img src="svelte.svg" style="max-height: 280px;" 
+                        class="my-2 img-fluid rounded-start h-auto w-auto" alt="p1">
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h5 class="card-title">~/Svelte-cv_</h5>
+                        </div>
+                        <div class="row">
+                            This very website! Built with scalability in mind, without wanting
+                            all the complications from big frameworks.                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
 
 <slot/>
