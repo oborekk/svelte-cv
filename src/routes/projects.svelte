@@ -1,5 +1,5 @@
 <script>
-    let workip = "< Work in Progress />"
+    let workip = "<Work_in_Progress/>"
     let w = "<W/>"
 </script>
 
@@ -59,12 +59,12 @@
         <div class="card my-2 p-3">
             <a href="">
                 <div class="row">
-                    <div class="col-sm-2">
+                    <div class="col-sm-1">
                         <h1>{w}</h1>
                     </div>
                     <div class="col">
                         <div class="row">
-                            <h5 class="card-title">{workip}</h5>
+                            <h5 class="">{workip}</h5>
                         </div>
                         <div class="row">
                             Always working on new projects!
@@ -91,5 +91,9 @@
     .card:hover {
         transition: 0.8s;
         background-color: var(--second-bg-color);
+    }
+
+    h1 {
+        font-size: 1.7em;
     }
 </style>
