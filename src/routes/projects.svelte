@@ -1,3 +1,8 @@
+<script>
+    let workip = "< Work in Progress />"
+    let w = "<W/>"
+</script>
+
 <div class="container mb-4">
     <div class="row">
         <div class="col-sm-4 p-3">
@@ -43,8 +48,26 @@
                             <h5 class="card-title">~/Svelte-cv_</h5>
                         </div>
                         <div class="row">
-                            This very website! Built with scalability in mind, without wanting
-                            all the complications from big frameworks.                            
+                            This website! Built with svelte and bootstrap.                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+        <div class="card my-2 p-3">
+            <a href="">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h1>{w}</h1>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h5 class="card-title">{workip}</h5>
+                        </div>
+                        <div class="row">
+                            Always working on new projects!
                         </div>
                     </div>
                 </div>
