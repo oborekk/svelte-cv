@@ -43,7 +43,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
     .title {
-        font-size: 3.5vw;
+        font-size: 3em;
         font-family: 'Major Mono Display', monospace;
         text-decoration: none;
         color: var(--main-color);
