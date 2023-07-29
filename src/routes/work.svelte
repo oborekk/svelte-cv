@@ -10,7 +10,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="card my-2 p-3">
             <div class="row">
-                <div class="col-sm-1">
+                <div class="col-sm-1 text-center">
                     <img src="ovh.webp" style="max-height: 280px;" 
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="ovh">
                 </div>
@@ -47,7 +47,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="card my-2 p-3">
             <div class="row">
-                <div class="col-sm-1">
+                <div class="col-sm-1 text-center">
                     <img src="ovh.webp" style="max-height: 280px;" 
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="ovh">
                 </div>
@@ -79,7 +79,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="card my-2 p-3">
             <div class="row">
-                <div class="col-sm-1">
+                <div class="col-sm-1 text-center">
                     <img src="indra.png" style="max-height: 280px;" 
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="indra">
                 </div>
@@ -119,7 +119,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="card my-2 p-3">
             <div class="row">
-                <div class="col-sm-1">
+                <div class="col-sm-1 text-center">
                     <img src="freelance.png" style="max-height: 280px;" 
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="freelance">
                 </div>
@@ -171,5 +171,10 @@
         background-color: var(--second-bg-color);
         border: 1px solid var(--second-color);
         transition: 0.8s;
+    }
+    
+    img {
+        max-width: 30vw;
+        max-height: 6em;
     }
 </style>
