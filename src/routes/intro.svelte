@@ -1,8 +1,8 @@
-<div class="d-flex p-5 align-items-center wrapper" style="height: 500px;">
+<div class="d-flex p-5 align-items-center wrapper" style="height: 30vw;">
     <div class="card ms-5 my-3 me">
         <div class="row">
             <div class="col-sm-3">
-              <img src="yo2.jpg" class="card-img rounded-start" alt="me">
+              <img src="yo2.jpg" style="max-height: 280px;" class="card-img rounded-start" alt="me">
             </div>
             <div class="col-sm-9">
               <div class="card-body">
@@ -28,14 +28,12 @@
 .wrapper {
   animation: scroll 500s linear infinite;
   background: url("/sand.avif");
-  object-fit: unset;
 }
 
 .card-img {
   width: 100%;
   height: 12vw;
-  object-fit: scale-down;
-  max-height: 280px;
+  object-fit: cover;
 }
 
 @keyframes scroll {
@@ -46,5 +44,7 @@
 
 .me {
   border: 0px;
+  max-width: 45vw;
+  width: 50vw;
 }
 </style>
