@@ -12,11 +12,11 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="row w-100 p-3">
+        <div class="row w-100 pt-3 pb-0">
             <hr style="color: var(--main-color);">
         </div>
-        <div class="row w-100 p-3">
-            <div class="col p-3">
+        <div class="row w-100 p-3 pt-0">
+            <div class="col p-3 pt-0">
                 <div class="row">
                     Thank you for reading! <br/>
                     You can contact me directly through any of these:
