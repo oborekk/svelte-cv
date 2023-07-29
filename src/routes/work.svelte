@@ -11,7 +11,7 @@
         <div class="card my-2 p-3">
             <div class="row">
                 <div class="col-sm-1 text-center">
-                    <img src="ovh.webp" style="max-height: 280px;" 
+                    <img src="ovh.webp"
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="ovh">
                 </div>
                 <div class="col">
@@ -48,7 +48,7 @@
         <div class="card my-2 p-3">
             <div class="row">
                 <div class="col-sm-1 text-center">
-                    <img src="ovh.webp" style="max-height: 280px;" 
+                    <img src="ovh.webp"
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="ovh">
                 </div>
                 <div class="col">
@@ -80,7 +80,7 @@
         <div class="card my-2 p-3">
             <div class="row">
                 <div class="col-sm-1 text-center">
-                    <img src="indra.png" style="max-height: 280px;" 
+                    <img src="indra.png"
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="indra">
                 </div>
                 <div class="col">
@@ -120,7 +120,7 @@
         <div class="card my-2 p-3">
             <div class="row">
                 <div class="col-sm-1 text-center">
-                    <img src="freelance.png" style="max-height: 280px;" 
+                    <img src="freelance.png"
                     class="my-2 img-fluid rounded-start h-auto w-auto" alt="freelance">
                 </div>
                 <div class="col">
@@ -174,7 +174,7 @@
     }
     
     img {
-        max-width: 30vw;
+        max-width: 6em;
         max-height: 6em;
     }
 </style>
