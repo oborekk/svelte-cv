@@ -1,5 +1,5 @@
 <div class="d-flex p-5 align-items-center wrapper" style="height: 500px;">
-    <div class="card ms-5 my-3 me" style="max-width: 850px;">
+    <div class="card me" style="max-width: 850px;">
         <div class="row">
             <div class="col-sm-3">
               <img src="yo2.jpg" style="max-height: 280px;" class="card-img rounded-start" alt="me">
@@ -28,6 +28,12 @@
 .wrapper {
   animation: scroll 500s linear infinite;
   background: url("/sand.avif");
+}
+
+.card-img {
+  width: 100%;
+  height: 12vw;
+  object-fit: cover;
 }
 
 @keyframes scroll {
