@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-sm-1">
                         <img src="python-icon.webp" style="max-height: 280px;" 
-                        class="my-2 img-fluid rounded-start h-auto w-auto" alt="p1">
+                        class="my-2 img-fluid rounded-start h-auto w-auto" alt="notionprod">
                     </div>
                     <div class="col">
                         <div class="row">
@@ -40,8 +40,8 @@
             <a href="https://github.com/oborekk/svelte-cv">
                 <div class="row">
                     <div class="col-sm-1">
-                        <img src="svelte.svg" style="max-height: 280px;" 
-                        class="my-2 img-fluid rounded-start h-auto w-auto" alt="p1">
+                        <img src="svelte.svg" 
+                        class="my-2 img-fluid rounded-start h-auto w-auto" alt="svelte-cv">
                     </div>
                     <div class="col">
                         <div class="row">
@@ -57,7 +57,7 @@
     </div>
     <div class="row justify-content-center align-items-center">
         <div class="card my-2 p-3">
-            <a href="">
+            <a href="borek.tech">
                 <div class="row">
                     <div class="col-sm-1">
                         <h1>{w}</h1>
@@ -86,6 +86,7 @@
 
     .card {
         transition: 0.8s;
+        width: 50vw;
     }
 
     .card:hover {
